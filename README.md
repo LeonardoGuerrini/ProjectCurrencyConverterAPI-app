@@ -43,7 +43,7 @@ Just click on the **Convert** button, and nice!
 - Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
 - LinkedIn: [@leonardoguerrini](https://www.linkedin.com/in/leoguerrini)
 
-## Referência
+## References
 
  - [Retrofit documentation](https://square.github.io/retrofit/)
  - [How to write an awesome README on your GitHub](https://www.alura.com.br/artigos/escrever-bom-readme?)
