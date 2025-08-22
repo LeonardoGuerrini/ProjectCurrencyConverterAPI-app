@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
 
-    // Implementações necessário para usar o Retrofit
+    // Implementações necessárias para usar o Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
     // Retrofit com GSON - converte objeto java em json e vice versa
