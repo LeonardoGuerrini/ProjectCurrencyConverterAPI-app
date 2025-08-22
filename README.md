@@ -19,7 +19,7 @@ This project is a challenge I received in my technical high school class, in the
 
 ## Prerequisites
 
-First, you need to create an account on API Exchange Rate, one of the only APIs that allows you to create a free trial account for use, which will provide you the current market values of currencies.
+First, you need to create an account on API Exchange Rate, a currency converter API that allows you to create a free trial account for use, which will provide you with the current market values of currencies.
 
 https://www.exchangerate-api.com/
 
