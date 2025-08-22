@@ -1,8 +1,21 @@
 # Currency Converter Project
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-This project is a challenge I received in class. It is a currency converter program for **Android devices**, programmed with **Java** in Android Studio and using the **Exchange Rate API**.
+This project is a challenge I received in my technical high school class, in the mobile development course, taught by **Professor Leonardo Rocha**. It is a currency converter program for Android devices, programmed with Java in Android Studio and using the Exchange Rate API. The Retrofit library was also used to create the interface.
+
+- [Github Leonardo Rocha](https://www.github.com/leonardossrocha)
+
 
 *The purpose of this program is only educational.*
+
+
+## Built with
+
+- [Java](https://www.java.com/pt-BR/) - Programming Language
+- [Exchange Rate API](https://www.exchangerate-api.com/) - Currency API
+- [Retrofit](https://square.github.io/retrofit/) - Library to create interface
+
+
 ## Prerequisites
 
 First, you need to create an account on API Exchange Rate, one of the only APIs that allows you to create a free trial account for use, which will provide you the current market values of currencies.
@@ -11,6 +24,22 @@ https://www.exchangerate-api.com/
 
 Then, download the APK and install the application:
 
-www.java.com
-## How to use
+https://example.com/
+## Using
 
+There is a field for entering the amount to be converted. Below it, there are two other fields, one for selecting the currency to be converted and another for selecting the currency to which it will be converted.
+
+Just click on the **Convert** button, and nice!
+## Author
+
+- Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
+- LinkedIn: [@leonardoguerrini](https://www.linkedin.com/in/leoguerrini)
+
+## Referência
+
+ - [Retrofit documentation](https://square.github.io/retrofit/)
+ - [How to write an awesome README on your GitHub](https://www.alura.com.br/artigos/escrever-bom-readme?)
+ - [READ ME or I'll devour you: How to write a good README](https://dev.to/github/leia-me-ou-te-devoro-como-escrever-um-bom-readme-5hl4)
+ - [Readme Editor](https://readme.so/pt/)
+ - [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
+ - [Readme templates](https://github.com/iuricode/readme-template)
