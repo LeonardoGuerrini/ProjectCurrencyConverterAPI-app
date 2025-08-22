@@ -12,6 +12,7 @@ This project is a challenge I received in my technical high school class, in the
 ## Built with
 
 - [Java](https://www.java.com/pt-BR/) - Programming Language
+- [Android Studio](https://developer.android.com/studio?hl=pt-br) - Programming Language
 - [Exchange Rate API](https://www.exchangerate-api.com/) - Currency API
 - [Retrofit](https://square.github.io/retrofit/) - Library to create interface
 
@@ -30,6 +31,13 @@ https://example.com/
 There is a field for entering the amount to be converted. Below it, there are two other fields, one for selecting the currency to be converted and another for selecting the currency to which it will be converted.
 
 Just click on the **Convert** button, and nice!
+
+#### Created Java Classes:
+
+-  **ExchangeRateService** - Project interface
+- **ExchangeRatesResponse** - In development
+- **MainActivity** - In development
+- **RetrofitClient** - In development
 ## Author
 
 - Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
