@@ -41,7 +41,7 @@ Just click on the **Convert** button, and nice!
 ## Author
 
 - Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
-- LinkedIn: [@leonardoguerrini](https://www.linkedin.com/in/leoguerrini)
+- LinkedIn: [@leoguerrini](https://www.linkedin.com/in/leoguerrini)
 
 ## References
 
