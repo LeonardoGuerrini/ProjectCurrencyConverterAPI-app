@@ -1,5 +1,5 @@
 # Currency Converter Project
-![Badge In Progress](http://img.shields.io/static/v1?label=STATUS&message=IN%20PROGRESS&color=GREEN&style=for-the-badge)
+![Badge In Progress](http://img.shields.io/static/v1?label=STATUS&message=IN%20PROGRESS&color=orange&style=for-the-badge)
 
 This project is a challenge I received in my technical high school class, in the mobile development course, taught by **Professor Leonardo Rocha**. It is a currency converter program for Android devices, programmed with Java in Android Studio and using the Exchange Rate API. The Retrofit library was also used to create the interface.
 
