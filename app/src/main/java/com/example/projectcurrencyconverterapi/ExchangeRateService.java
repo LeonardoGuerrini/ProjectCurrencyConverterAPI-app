@@ -11,7 +11,7 @@ public interface ExchangeRateService {
      *
      * **/
 
-    $GET(/"v6/{apiKey}/latest/{baseCurrency}");
+    @GET("/v6/{apiKey}/latest/{baseCurrency}")
 
         Call<ExchangeRatesResponse> getExchangeRates(
                 @Path("apiKey") String apiKey, // Substitui {apiKey} na URL com valor fornecido pelo usuário
