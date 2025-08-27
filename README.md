@@ -38,6 +38,9 @@ Just click on the **Convert** button, and nice!
 - **ExchangeRatesResponse** - In development
 - **MainActivity** - In development
 - **RetrofitClient** - In development
+
+#### Used Retrofit classes:
+- [Builder()](https://square.github.io/retrofit/2.x/retrofit/retrofit2/Retrofit.Builder.html)
 ## Author
 
 - Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
