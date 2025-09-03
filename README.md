@@ -66,6 +66,7 @@ Just click on the **Convert** button, and nice!
 ## References
 
  - [Retrofit documentation](https://square.github.io/retrofit/)
+ - [Android Developers documentation](https://developer.android.com/reference/packages)
  - [How to write an awesome README on your GitHub](https://www.alura.com.br/artigos/escrever-bom-readme?)
  - [READ ME or I'll devour you: How to write a good README](https://dev.to/github/leia-me-ou-te-devoro-como-escrever-um-bom-readme-5hl4)
  - [Readme Editor](https://readme.so/pt/)
