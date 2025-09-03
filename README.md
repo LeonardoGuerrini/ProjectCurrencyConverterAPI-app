@@ -41,6 +41,23 @@ Just click on the **Convert** button, and nice!
 
 #### Used Retrofit classes:
 - [Builder()](https://square.github.io/retrofit/2.x/retrofit/retrofit2/Retrofit.Builder.html)
+
+#### MainActivity Imports:
+- **android.os.Bundle:** Saves and restores data on a screen.
+- **android.view.View:** The base for all visual elements on the screen.
+- **android.widget.ArrayAdapter:** Prepares data to be shown in lists.
+- **android.widget.Button:** Creates clickable buttons.
+- **android.widget.EditText:** Creates fields for the user to type text.
+- **android.widget.Spinner:** Creates a dropdown list of options.
+- **android.widget.TextView:** Displays static text.
+- **android.widget.Toast:** Shows quick pop-up messages.
+- **androidx.appcompat.app.AppCompatActivity:** Allows the app to work on older Android versions.
+- **java.util.List:** Represents a list of items.
+- **java.util.Map:** Represents "key-value" pairs (like a dictionary).
+- **retrofit2.Call:** Makes a call to a web API.
+- **retrofit2.Callback:** Handles the result (success or failure) of the API call.
+- **retrofit2.Response:** Contains the full API response, including status and data.
+  
 ## Author
 
 - Github: [@leonardoguerrini](https://www.github.com/leonardoguerrini)
