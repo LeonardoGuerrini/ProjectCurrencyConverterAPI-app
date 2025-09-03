@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity{
     // Mapa para armazenar as taxas de câmbio obtidas da API
     private Map<String, Double> taxasDeCambio;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main); // Define o layout da atividade
+    }
+
 }
