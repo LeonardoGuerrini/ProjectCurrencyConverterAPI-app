@@ -15,6 +15,21 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity {
+// Importando as classes do projeto
+import com.example.projectcurrencyconverterapi.RetrofitClient;
+import com.example.projectcurrencyconverterapi.ExchangeRateService;
+
+public class MainActivity extends AppCompatActivity{
+    // Componentes de interface
+    private Spinner spinnerMoedaOrigem, spinnerMoedaDestino;
+    private EditText etValor;
+    private Button btnConverter;
+    private TextView tvResultado;
+
+    // Lista de moedas suportadas
+    private List<String> moedas = List.of("USD", "BRL", "EUR", "GBP", "JPY");
+
+    // Mapa para armazenar as taxas de câmbio obtidas da API
+    private Map<String, Double> taxasDeCambio;
 
 }
