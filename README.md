@@ -35,12 +35,15 @@ Just click on the **Convert** button, and nice!
 #### Created Java Classes:
 
 -  **ExchangeRateService** - Project interface
-- **ExchangeRatesResponse** - In development
-- **MainActivity** - In development
-- **RetrofitClient** - In development
+- **ExchangeRatesResponse** - Class responsible for providing the API JSON (DTO)
+- **MainActivity** - Main project class
+- **RetrofitClient** - Class responsible for configuring and providing a Retrofit instance
 
 #### Used Retrofit classes:
 - [Builder()](https://square.github.io/retrofit/2.x/retrofit/retrofit2/Retrofit.Builder.html)
+
+#### Used Android classes:
+- [ArrayAdapter()](https://developer.android.com/reference/android/widget/ArrayAdapter)
 
 #### MainActivity Imports:
 - **android.os.Bundle:** Saves and restores data on a screen.

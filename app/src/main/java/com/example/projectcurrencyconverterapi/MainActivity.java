@@ -36,6 +36,36 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); // Define o layout da atividade
+
+        // Inicializa os componentes da interface
+
+        spinnerMoedaOrigem = findViewById(R.id.spinnerMoedaOrigem);
+        spinnerMoedaDestino = findViewById(R.id.spinnerMoedaDestino);
+        etValor = findViewById(R.id.etValor);
+        btnConverter = findViewById(R.id.btnConverter);
+        tvResultado = findViewById(R.id.tvResultado);
+
+        // Configurar os Spinners com a lista de moedas
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, moedas);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerMoedaOrigem.setAdapter(adapter);
+        spinnerMoedaDestino.setAdapter(adapter);
+
+        // Carregas as taxas de câmbio da API
+        carregarTaxasDeCambio();
+
+        // Configura o botão de conversão
+        btnConverter.setOnClickListener(view -> converterMoeda());
+    }
+    // Método para configurar taxas de câmbio da API
+    private void carregarTaxasDeCambio(){
+
+    }
+
+    // Método para converter o valor de uma moeda para outra
+    private void converterMoeda(){
+
     }
 
 }
