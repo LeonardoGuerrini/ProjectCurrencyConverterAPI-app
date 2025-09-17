@@ -58,13 +58,10 @@ public class MainActivity extends AppCompatActivity{
         // Configura o botão de conversão
         btnConverter.setOnClickListener(view -> converterMoeda());
     }
+
+
     // Método para configurar taxas de câmbio da API
     private void carregarTaxasDeCambio(){
-
-    }
-
-    // Método para converter o valor de uma moeda para outra
-    private void converterMoeda(){
         ExchangeRateService service = RetrofitClient.getInstance(); // Obtém a instância do
         Call<ExchangeRatesResponse> call = service.getExchangeRates("8765ebd25884cd53ab7b6ece", "USD"); // Faz a chamada da API
 
@@ -81,9 +78,46 @@ public class MainActivity extends AppCompatActivity{
 
             @Override
             public void onFailure(Call<ExchangeRatesResponse> call, Throwable t){
-
+                tvResultado.setText("Erro naconexão");
+                return;
             }
         });
+    }
+
+    // Método para converter o valor de uma moeda para outra
+    private void converterMoeda(){
+        String valorTexto = etValor.getText().toString(); // Obtém o valor digitado pelo usuário
+
+        // Verifica se o valor é válido
+        if(valorTexto.isEmpty()){
+            Toast.makeText(this, "Digite um valor válido", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+
+        String moedaOrigem = spinnerMoedaOrigem.getSelectedItem().toString(); // Obtém a moeda de origem
+        String moedaDestino = spinnerMoedaDestino.getSelectedItem().toString(); // Obtém a moeda de destino
+        double valor = Double.parseDouble(valorTexto);
+
+        // Verifica se as taxas de câmbios estão disponíveis
+        if(taxasDeCambio == null || !taxasDeCambio.containsKey(moedaOrigem) || !taxasDeCambio.containsKey(moedaDestino)){
+            tvResultado.setText("Taxas de câmbio indisponíveis");
+            return;
+        }
+
+        // Obtém as taxas de câmbios para moedas selecionadas
+        double taxaOrigem = taxasDeCambio.get(moedaOrigem);
+        double taxaDestino = taxasDeCambio.get(moedaDestino);
+
+        // Calcula o valor convertido
+        double valorConvertido = (valor / taxaOrigem) * taxaDestino;
+
+        // Exibe o resultado da conversão formatada
+        tvResultado.setText(String.format("Resultado: %.2f %s", valorConvertido, moedaDestino));
+
+
+
+
     }
 
 }
