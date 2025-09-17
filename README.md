@@ -41,7 +41,6 @@ Just click on the **Convert** button, and nice!
 
 #### Used Retrofit classes:
 - [Builder()](https://square.github.io/retrofit/2.x/retrofit/retrofit2/Retrofit.Builder.html)
-- [Call()](https://square.github.io/retrofit/2.x/retrofit/retrofit2/Call.html)
 
 #### Used Android classes:
 - [ArrayAdapter()](https://developer.android.com/reference/android/widget/ArrayAdapter)
