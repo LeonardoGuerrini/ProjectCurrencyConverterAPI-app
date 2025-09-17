@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); // Define o layout da atividade
 
+
         // Inicializa os componentes da interface
 
         spinnerMoedaOrigem = findViewById(R.id.spinnerMoedaOrigem);
